@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Right Div</title>
+    <style>
+        /* Apply basic styling to body and paragraphs */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 2000px; /* To enable scrolling for demonstration */
+        }
+
+        p {
+            font-size: 16px;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        /* Fixed div at the right side */
+        div {
+            position: fixed;
+            right: 0; 
+            top: 50%;
+            align-items: centre;
+            transform: translateY(-50%); /* Centers the div vertically */
+            width: 200px;
+            height: 200px;
+            background-image: url('https://www.w3schools.com/w3images/forest.jpg'); /* Replace with your image */
+            background-size: cover; /* Ensures the image covers the div */
+            background-position: center; /* Centers the background image */
+            color: white;
+            text-align: center;
+            line-height: 200px; /* Centers the text vertically */
+            font-size: 18px;
+            z-index: 9999; /* Places the div on top */
+        }
+    </style>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula nisi nec eros egestas, at sodales orci accumsan.</p>
+    <div>Love Nature</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et suscipit turpis. Nulla facilisi.</p>
+
+</body>
+</html>
